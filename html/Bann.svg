@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="728px"
+   height="90px"
+   id="svg2160"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docbase="/home/samith/Documents/Devel/Kdevel/Projects/ssdcompany/shtimer/html"
+   sodipodi:docname="Bann.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/samith/Documents/Devel/Kdevel/Projects/ssdcompany/shtimer/html/Bann.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2162" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.5"
+     inkscape:cx="366.90119"
+     inkscape:cy="35.478692"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1272"
+     inkscape:window-height="940"
+     inkscape:window-x="0"
+     inkscape:window-y="30" />
+  <metadata
+     id="metadata2165">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <rect
+       style="opacity:0.57608696;fill:#d7507c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2168"
+       width="739.33331"
+       height="98.666664"
+       x="-4.6666665"
+       y="-2.6666667" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path4118"
+       sodipodi:cx="32"
+       sodipodi:cy="26.666666"
+       sodipodi:expansion="1"
+       sodipodi:revolution="3"
+       sodipodi:radius="45.11713"
+       sodipodi:argument="-18.518459"
+       sodipodi:t0="0"
+       d="M 32,26.666666 C 34.139238,27.40203 32.064168,29.913119 30.777776,30.222221 C 27.291733,31.059866 24.818807,27.278402 24.88889,24.222218 C 25.014252,18.755421 30.625232,15.381917 35.666672,16.000002 C 43.065189,16.907065 47.447087,24.557131 46.222219,31.555562 C 44.589663,40.88337 34.83553,46.29954 25.88888,44.44444 C 14.630434,42.109986 8.1695339,30.224317 10.666671,19.333322 C 13.691039,6.1428676 27.722349,-1.3681679 40.555568,1.7777823 C 55.679074,5.4851757 64.243446,21.670326 60.444439,36.444458 C 56.058334,53.50178 37.714153,63.121557 20.999984,58.666659 C 2.0082816,53.604722 -8.6683188,33.098014 -3.5555482,14.444425 C 2.1802078,-6.4820819 24.85191,-18.216523 45.444465,-12.444437 C 68.306103,-6.0363273 81.099141,18.802178 74.666658,41.333355"
+       transform="matrix(1.3568094,0,0,0.3704397,13.578196,59.09641)" />
+    <text
+       xml:space="preserve"
+       style="font-size:44.39558792px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="112.44547"
+       y="63.895176"
+       id="text4120"
+       transform="scale(1.1220899,0.8911942)"><tspan
+         sodipodi:role="line"
+         id="tspan4122"
+         x="112.44547"
+         y="63.895176">Shutdown Timer 0.2</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 28.666667,14 L 12.666667,17.333333 L 40.666667,40.666667 L 30,46.666667 L 57.333334,67.333333 L 47.333334,27.333333 L 28.666667,14 z "
+       id="path4126" />
+  </g>
+</svg>

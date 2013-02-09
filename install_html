@@ -1,0 +1,5 @@
+#!/bin/bash
+echo Installing Documentation.....
+mkdir /usr/share/doc/ssdcompany
+mkdir /usr/share/doc/ssdcompany/shtimer
+cp html -r  /usr/share/doc/ssdcompany/shtimer/

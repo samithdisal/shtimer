@@ -1,0 +1,11 @@
+#!/bin/bash
+echo _______________________________________
+echo  "******  Setup Shutdown Timer  ******"
+echo _______________________________________
+qmake && make
+cp shtimer /usr/bin
+mkdir /usr/local/shtimer
+cp bin/shtimer /usr/local/shtimer
+sh install_html
+echo _______________________________________
+echo _______________________________________

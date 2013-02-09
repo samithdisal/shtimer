@@ -1,0 +1,9 @@
+#!/bin/bash
+echo _______________________________________
+echo  "******  Uninstalling Shutdown Timer  ******"
+echo _______________________________________
+rm /usr/bin/shtimer
+rm -r /usr/local/shtimer
+sh uninstall_html
+echo _______________________________________
+echo _______________________________________

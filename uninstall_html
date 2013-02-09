@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Uninstalling Documentation.....
+rm -r /usr/share/doc/ssdcompany/shtimer

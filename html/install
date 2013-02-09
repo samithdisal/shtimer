@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir /usr/share/doc/ssdcompany
+mkdir /usr/share/doc/ssdcompany/shtimer
+cp html -r  /usr/share/doc/ssdcompany/shtimer/

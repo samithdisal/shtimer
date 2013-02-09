@@ -1,0 +1,1 @@
+1.type: "sudo ./setup_shtimer"

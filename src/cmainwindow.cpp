@@ -26,8 +26,6 @@ CMainWindow::CMainWindow(QWidget *parent, const char *name)
   resize( 440, 240 );
 //   grdLayout = new QGridLayout( this , 7, 8, 2, 3 );
   grdLayout = new QGridLayout( this );
-  grdLayout->setHorizontalSpacing(7);
-  grdLayout->setVerticalSpacing(8);
   //Time Set
   int counter;
   lbl_Hrs = new QLabel( "Hours : " , this );
@@ -77,7 +75,7 @@ CMainWindow::CMainWindow(QWidget *parent, const char *name)
   connect( tmr_Count, SIGNAL( timeout() ), this, SLOT( slotCount() ) );
   
   statusBar()->showMessage ( "Ready" );
-  grdLayout->addWidget ( statusBar(), 7, 7, 0, 8 );
+  grdLayout->addWidget ( statusBar(), 7, 7, 1, 8 );
   
   lbl_Remain = new QLabel( "0 : 00 : 00", this );
   lbl_Remain->setFont( QFont( "Cronyx-Helvetica", 28, 50 ) );
@@ -97,7 +95,8 @@ CMainWindow::CMainWindow(QWidget *parent, const char *name)
   connect( aHelp_About, SIGNAL( activated() ), this, SLOT( slotHelp_About() ) );
   
   //init MenuBar
-  grdLayout->addWidget( menuBar(), 0,0,0,8);
+  //grdLayout->addWidget( menuBar(), 0,0,0,8);
+  this->menuBar()->setVisible(true);
   
   mnu_Timer = new QMenu( this );
   mnu_Timer -> addAction( aTimer_Start );

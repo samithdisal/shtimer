@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
      bool useGUI = true;
   #endif
   QApplication app( argc, argv, useGUI );
-  QSplashScreen *spl = new QSplashScreen( (const char**) aboutsplash_xpm );
+  QSplashScreen *spl = new QSplashScreen( (const char**) aboutsplash );
   spl->show();
   CMainWindow *mw = new CMainWindow();
   app.setActiveWindow(mw);

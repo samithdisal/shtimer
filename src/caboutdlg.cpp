@@ -1,6 +1,6 @@
 /***************************************************************************
- *   Copyright (C) 2007 by Samith D Sandanayake   *
- *   samithdisal@gmail.com   *
+ *   Copyright (C) 2007 - 2013 by Samith D Sandanayake                     *
+ *   samithdisal@gmail.com                                                 *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -19,22 +19,22 @@
  ***************************************************************************/
 #include "caboutdlg.h"
 #include "pixmap/aboutsplash.xpm"
-#include <qlayout.h>
+#include <QtGui/QLayout>
 
 CAboutDlg::CAboutDlg(QWidget *parent, const char *name)
- : QDialog(parent, name, TRUE )
+ : QDialog(parent)
 {
-	QGridLayout *gLayout = new QGridLayout( this, 6, 6 );
-	setCaption( "About Shutdown Timer - Samith D Sandanayake" );
-	resize( 630, 400 );
-	setPaletteBackgroundPixmap( (const char**)aboutsplash_xpm );
-	QPushButton *btnOK = new QPushButton( "&OK", this );
-	btnOK->setDefault( TRUE );
-	btnOK->setPaletteBackgroundColor( Qt::darkRed );
-	btnOK->setPaletteForegroundColor( Qt::white );
-	gLayout->addWidget( btnOK, 4, 4 );
-	
-	connect( btnOK, SIGNAL( released() ), this, SLOT( accept() ) );
+  QGridLayout *gLayout = new QGridLayout( this );
+  setWindowTitle( name );
+  resize( 630, 400 );
+  //setPaletteBackgroundPixmap( (const char**)aboutsplash_xpm );
+  QPushButton *btnOK = new QPushButton( "&OK", this );
+  btnOK->setDefault( true );
+  //btnOK->palette().background().setColor( Qt::darkRed );
+  //btnOK->palette().foreground().setColor( Qt::white );
+  gLayout->addWidget( btnOK, 4, 4 );
+  
+  connect( btnOK, SIGNAL( released() ), this, SLOT( accept() ) );
 }
 
 

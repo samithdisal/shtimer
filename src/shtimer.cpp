@@ -1,6 +1,6 @@
 /***************************************************************************
- *   Copyright (C) 2007 by Samith D Sandanayake   *
- *   samithdisal@gmail.com   *
+ *   Copyright (C) 2007-1013 by Samith D Sandanayake                       *
+ *   samithdisal@gmail.com                                                 *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -26,8 +26,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <qapplication.h>
-#include <qsplashscreen.h>
+#include <QtGui/QApplication>
+#include <QtGui/QSplashScreen>
 
 #include "cmainwindow.h"
 
@@ -35,13 +35,18 @@
 
 int main(int argc, char *argv[])
 {
-	QApplication *app = new QApplication( argc, argv );
-	QSplashScreen *spl = new QSplashScreen( (const char**) aboutsplash_xpm );
-	spl->show();
-	CMainWindow *mw = new CMainWindow();
-	app->setMainWidget( mw );
-	mw->show();
-	spl->finish( mw );
-	delete spl;
-	return app->exec();
+  #ifdef Q_WS_X11
+     bool useGUI = getenv("DISPLAY") != 0;
+  #else
+     bool useGUI = true;
+  #endif
+  QApplication app( argc, argv, useGUI );
+  QSplashScreen *spl = new QSplashScreen( (const char**) aboutsplash_xpm );
+  spl->show();
+  CMainWindow *mw = new CMainWindow();
+  app.setActiveWindow(mw);
+  mw->show();
+  spl->finish( mw );
+  delete spl;
+  return app.exec();
 }

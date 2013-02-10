@@ -1,6 +1,6 @@
 /***************************************************************************
- *   Copyright (C) 2007 by Samith D Sandanayake   *
- *   samithdisal@gmail.com   *
+ *   Copyright (C) 2007 - 2013 by Samith D Sandanayake                     *
+ *   samithdisal@gmail.com                                                 *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -20,19 +20,10 @@
 #ifndef CMAINWINDOW_H
 #define CMAINWINDOW_H
 
-#include <qmainwindow.h>
-#include <qlayout.h>
-#include <qcombobox.h>
-#include <qlabel.h>
-#include <qpushbutton.h>
-#include <qstatusbar.h>
-#include <qtimer.h>
-#include <qdatetime.h>
-#include <qprocess.h>
-#include <qfont.h>
-#include <qmenubar.h>
-#include <qpopupmenu.h>
-#include <qaction.h>
+#include <QtGui/QtGui>
+#include <QtCore/QTimer>
+#include <QtCore/QDateTime>
+#include <QtCore/QProcess>
 
 
 #include "caboutdlg.h"
@@ -57,7 +48,7 @@ private:
     QComboBox *com_Hrs, *com_Mins, *com_Secs;
     QPushButton *btn_Start, *btn_Cancel;
     QLabel *lbl_Hrs, *lbl_Mins, *lbl_Secs, *lbl_Remain;
-    QPopupMenu *mnu_Timer, *mnu_Help;
+    QMenu *mnu_Timer, *mnu_Help;
     QAction *aTimer_Start, *aTimer_Cancel, *aHelp_Help, *aHelp_Online, *aHelp_About;
     
     long l_tim; //the time for shutdown

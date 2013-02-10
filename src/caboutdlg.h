@@ -1,6 +1,6 @@
 /***************************************************************************
- *   Copyright (C) 2007 by Samith D Sandanayake   *
- *   samithdisal@gmail.com   *
+ *   Copyright (C) 2007 - 2013 by Samith D Sandanayake                     *
+ *   samithdisal@gmail.com                                                 *
  *                                                                         *
  *   This program is free software; you can redistribute it and/or modify  *
  *   it under the terms of the GNU General Public License as published by  *
@@ -20,11 +20,9 @@
 #ifndef CABOUTDLG_H
 #define CABOUTDLG_H
 
-#include <qdialog.h>
-#include <qpixmap.h>
-#include <qpushbutton.h>
-
-
+#include <QtGui/QDialog>
+#include <QtGui/QPixmap>
+#include <QtGui/QPushButton>
 /**
 	@author Samith D Sandanayake <samithdisal@gmail.com>
 */
